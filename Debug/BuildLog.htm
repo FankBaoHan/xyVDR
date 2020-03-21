@@ -1,0 +1,93 @@
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=gb2312">
+</head>
+<body>
+<pre>
+<table width=100% bgcolor=#CFCFE5><tr> <td> <font face=宋体 size=+3>
+生成日志
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+<h3>------- 已启动生成: 项目: VDR，配置: Debug|Win32 -------
+</h3>
+</pre></table><table width=100%% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+命令行
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>正在创建临时文件“c:\Users\Administrator\Documents\Visual Studio Projects\Vdr\Debug\RSP00005B.rsp”，其内容为
+[
+/Od /D "WIN32" /D "_WINDOWS" /D "_DEBUG" /D "_USRDLL" /D "_MBCS" /D "_WINDLL" /Gm /EHsc /RTC1 /MTd /Yu"stdafx.h" /Fp"Debug/VDR.pch" /Fo"Debug/" /Fd"Debug/vc70.pdb" /W3 /c /Wp64 /ZI /TP
+".\VDRPro.cpp"
+".\VDR.cpp"
+".\SerialCom.cpp"
+".\Helper.cpp"
+".\DevVDR.cpp"
+".\DevBase.cpp"
+".\Debug.cpp"
+".\Check.cpp"
+]
+正在创建命令行“cl.exe @"c:\Users\Administrator\Documents\Visual Studio Projects\Vdr\Debug\RSP00005B.rsp" /nologo”
+正在创建临时文件“c:\Users\Administrator\Documents\Visual Studio Projects\Vdr\Debug\RSP00005C.rsp”，其内容为
+[
+/Od /D "WIN32" /D "_WINDOWS" /D "_DEBUG" /D "_USRDLL" /D "_MBCS" /D "_WINDLL" /Gm /EHsc /RTC1 /MTd /Yc"stdafx.h" /Fp"Debug/VDR.pch" /Fo"Debug/" /Fd"Debug/vc70.pdb" /W3 /c /Wp64 /ZI /TP
+".\stdafx.cpp"
+]
+正在创建命令行“cl.exe @"c:\Users\Administrator\Documents\Visual Studio Projects\Vdr\Debug\RSP00005C.rsp" /nologo”
+正在创建命令行“rc.exe /d "_DEBUG" /l 0x804 /I "Debug" /fo"Debug/VDR.res" ".\VDR.rc"”
+正在创建临时文件“c:\Users\Administrator\Documents\Visual Studio Projects\Vdr\Debug\RSP00005D.rsp”，其内容为
+[
+/OUT:"Debug/VDR.dll" /INCREMENTAL /NOLOGO /DLL /DEF:"VDR.def" /DELAYLOAD:"OleAcc.dll" /IDLOUT:"_VDR.idl" /DEBUG /PDB:"Debug/VDR.pdb" /SUBSYSTEM:WINDOWS /IMPLIB:"Debug/VDR.lib" /MACHINE:X86  DelayImp.lib DelayImp.lib
+".\Debug\Check.obj"
+".\Debug\Debug.obj"
+".\Debug\DevBase.obj"
+".\Debug\DevVDR.obj"
+".\Debug\Helper.obj"
+".\Debug\SerialCom.obj"
+".\Debug\stdafx.obj"
+".\Debug\VDR.obj"
+".\Debug\VDRPro.obj"
+".\Debug\VDR.res"
+]
+正在创建命令行“link.exe @"c:\Users\Administrator\Documents\Visual Studio Projects\Vdr\Debug\RSP00005D.rsp"”
+正在创建临时文件“c:\Users\Administrator\Documents\Visual Studio Projects\Vdr\Debug\BAT00005E.bat”，其内容为
+[
+@echo off
+regsvr32 /s /c "c:\Users\Administrator\Documents\Visual Studio Projects\Vdr\Debug\VDR.dll"
+if errorlevel 1 goto VCReportError
+goto VCEnd
+:VCReportError
+echo Project : error PRJ0019: 工具从"execute register"
+exit 1
+:VCEnd
+]
+正在创建命令行“"c:\Users\Administrator\Documents\Visual Studio Projects\Vdr\Debug\BAT00005E.bat"”
+</pre></table><table width=100%% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+输出窗口
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>正在编译...
+stdafx.cpp
+ WINVER not defined. Defaulting to 0x0501 (Windows XP and Windows .NET Server)
+正在编译...
+VDRPro.cpp
+VDR.cpp
+SerialCom.cpp
+c:\Users\Administrator\Documents\Visual Studio Projects\VDR\SerialCom.cpp(289) : warning C4018: “<” : 有符号/无符号不匹配
+Helper.cpp
+DevVDR.cpp
+c:\Users\Administrator\Documents\Visual Studio Projects\VDR\DevVDR.cpp(834) : warning C4267: “参数” : 从“size_t”转换到“int”，可能丢失数据
+c:\Users\Administrator\Documents\Visual Studio Projects\VDR\DevVDR.cpp(842) : warning C4267: “=” : 从“size_t”转换到“int”，可能丢失数据
+c:\Users\Administrator\Documents\Visual Studio Projects\VDR\DevVDR.cpp(920) : warning C4267: “参数” : 从“size_t”转换到“int”，可能丢失数据
+c:\Users\Administrator\Documents\Visual Studio Projects\VDR\DevVDR.cpp(928) : warning C4267: “=” : 从“size_t”转换到“int”，可能丢失数据
+c:\Users\Administrator\Documents\Visual Studio Projects\VDR\DevVDR.cpp(954) : warning C4267: “初始化” : 从“size_t”转换到“int”，可能丢失数据
+c:\Users\Administrator\Documents\Visual Studio Projects\VDR\DevVDR.cpp(988) : warning C4267: “初始化” : 从“size_t”转换到“int”，可能丢失数据
+DevBase.cpp
+Debug.cpp
+Check.cpp
+正在生成代码...
+正在编译资源...
+正在链接...
+VDR.def(4) : warning LNK4017: 对于目标平台不支持 DESCRIPTION 语句；已将其忽略
+   正在创建库 Debug/VDR.lib 和对象 Debug/VDR.exp
+execute register
+</pre></table><table width=100%% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+结果
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+生成日志保存在“file://c:\Users\Administrator\Documents\Visual Studio Projects\Vdr\Debug\BuildLog.htm”中
+VDR - 0 错误，8 警告</pre></table><table   width=100% height=20 bgcolor=#CFCFE5><tr><td><font face=宋体 size=+2>
+</font></table></body></html>

@@ -1,0 +1,10 @@
+; VDR.def : Declares the module parameters for the DLL.
+
+LIBRARY      "VDR"
+DESCRIPTION  'VDR Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
+	DllCanUnloadNow PRIVATE
+	DllGetClassObject PRIVATE
+	DllRegisterServer PRIVATE
